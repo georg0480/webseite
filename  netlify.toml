@@ -1,4 +1,5 @@
 [[redirects]]
-    from = "/*"
-    to = "/index.html"
-    status = 200
+  from = "https://mailadler.netlify.app/*"
+  to = "https://mailadler.de/:splat"
+  status = 301
+  force = true
